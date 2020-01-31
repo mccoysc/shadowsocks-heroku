@@ -12,6 +12,7 @@ USER heroku
 # copy to work dir
 WORKDIR /home/heroku
 COPY Procfile Procfile
+COPY chisel-users.json chisel-users.json
 
 # start
 EXPOSE $PORT
