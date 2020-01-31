@@ -12,7 +12,6 @@ USER heroku
 # copy to work dir
 WORKDIR /home/heroku
 COPY Procfile Procfile
-WORKDIR /home/heroku
 COPY chisel-users.json chisel-users.json
 
 # start
